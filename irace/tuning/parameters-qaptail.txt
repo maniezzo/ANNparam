@@ -1,0 +1,8 @@
+### Parameter file for the taillard ts
+# name		switch		     type	values			[conditions (using R syntax)]
+maxiter         "--maxiter "  i    (5, 500)        
+minTLlength     "--mintl "    r    (0.6, 1.0)
+maxTLlength     "--maxtl "    r    (1.0, 2.5) 
+iter2aspiration "--aspir "    i    (1, 5) 
+iter2resize     "--resize "   i    (2, 5) 
+maxcpu          "--maxt "     i    (10,600)

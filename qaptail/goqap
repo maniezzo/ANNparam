@@ -1,0 +1,1 @@
+./qaptail --verbose 1 --inst instances/TAI15A.DAT --maxiter 133 --mintl 0.68 --maxtl 1.56 --aspir 2 --resize 4 --maxt 390
